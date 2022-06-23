@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+#container{
+    background-color: coral;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    
+    
+    
+}
+#profile_area{
+    margin-top: 5%;
+    background-color: aquamarine;
+    height: 100%;
+    width: 55%;
+    vertical-align: bottom;
+    display: flex;
+    
+    
+    
+} 
+#skills_area{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: blueviolet;
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+}
+#stats_area{
+    background-color: chartreuse;
+    width: 51%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+       
+}
+
+.sidebar{
+    width: 50px;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
